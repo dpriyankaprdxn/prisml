@@ -121,7 +121,7 @@ li {
 =================================*/
 
 .row{
-  display: block;
+  display: table;
 }
 
 .inline-div{
@@ -133,7 +133,7 @@ a::after{
   display: block;
 }
 
-section a, input[type="submit"]{
+.feature a, .info a,  input[type="submit"]{
   margin-top: 5px;
   border:2px solid #ccc;
   color: #666666;
@@ -142,6 +142,7 @@ section a, input[type="submit"]{
   font-weight: bold;
   padding: 10px 25px;
 }
+
 
 .fa-custom{
   color: #49bd8b;
@@ -164,7 +165,7 @@ Banner styling start
   width: 50%;
 }
 
-.banner-div, .sub-feature{
+.banner-div, .sub-feature, .sub-info{
   margin: 30px;
 }
 
@@ -197,7 +198,7 @@ feature styling start
  /*========================
 feature styling end
  =========================*/
-.feature, .info{
+.feature, .info, .contact{
   padding: 35px 20px; 
 }
 
@@ -205,10 +206,58 @@ feature styling end
   font-size: 30px;
 }
 
-.feature li, .sub-feature h3, .sub-feature p{
+.feature li, .sub-feature h3, .sub-feature p, .sub-two h4, .sub-two p, .contact h4, .contact p, .contact form, .contact li{
   padding: 10px;
 }
 
+.sub-two{
+  padding-top: 20vh;
+}
+
+.contact li{
+  display: block;
+  float: bottom;
+  margin-left: 10vw;
+
+}
+
+.info h4{
+  font-size: 25px;
+}
+
+.Orci h5{
+  font-size: 20px;
+}
+
+.form-group input[type="text"]{
+  display: inline-block;
+  float: left;
+  width:80%;
+  padding: 10px;
+  margin: 4px;
+  
+}
+
+.form-group input[type="email"]{
+   width:80%;
+  padding: 10px;
+  margin: 4px;
+  
+}
+
+.form-group textarea{
+  width:90%;
+  height:25vh;
+  padding: 10px;
+  margin: 4px
+}
+
+footer p{
+  color: #ccc;
+  padding: 30px;
+  margin:0 auto;
+  text-align: center;
+}
 /*=================================
   main styling ends here
 =================================*/
