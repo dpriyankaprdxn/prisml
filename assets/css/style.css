@@ -120,18 +120,14 @@ li {
   main styling starts here
 =================================*/
 
-.row{
-  display: table;
-}
+.row { display: table; }
 
-.inline-div{
+.inline-div {
   display: inline-block;
   float: left;
 }
 
-a::after{
-  display: block;
-}
+a::after { display: block; }
 
 .feature a, .info a,  input[type="submit"]{
   margin-top: 5px;
@@ -144,21 +140,20 @@ a::after{
 }
 
 
-.fa-custom{
-  color: #49bd8b;
-}
+.fa-custom { color: #49bd8b; }
 
-p, .sub-feature li{
-  color: #666666;
+p, .sub-feature li, .contact a{
+  color: #666;
 }
 /*========================
 Banner styling start
  =========================*/
 .banner{
-  background: #753d77;
+  background: linear-gradient(to right, #5c4476 , #72407a );
+  padding: 1px 2px 3px 4px;
   padding-top: 30vh;
   padding-bottom: 20vh;
-  color: #ffffff;
+  color: #fff;
 }
 
 .inline-div {
@@ -170,7 +165,8 @@ Banner styling start
 }
 
 .banner-div h2{
-  font-size: 40px;
+  font: 40px 'sans-serif';
+  border-right:2px #ccc solid;
 }
 
 .banner a{
@@ -212,13 +208,14 @@ feature styling end
 
 .sub-two{
   padding-top: 20vh;
+  width: 100%;
 }
 
 .contact li{
   display: block;
   float: bottom;
   margin-left: 10vw;
-
+  color:  #666666;
 }
 
 .info h4{
@@ -235,7 +232,6 @@ feature styling end
   width:80%;
   padding: 10px;
   margin: 4px;
-  
 }
 
 .form-group input[type="email"]{
